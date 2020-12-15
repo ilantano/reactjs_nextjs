@@ -14,7 +14,7 @@ export default function DetailMovie({movie}) {
             alt={movie.title}
           />
           <p style={{textAlign:'center'}}>{movie.original_title}</p>
-
+          <button>Trailer</button>
         </Col>
         <Col  span={12}>
           <h1>{movie.title}</h1>
